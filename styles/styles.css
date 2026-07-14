@@ -5,6 +5,8 @@ h1 {
 nav {
   background-color: #37474f;
   padding: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 nav a {
