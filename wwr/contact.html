@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Rapids White Water Rafting</title>
+  <meta name="description"
+    content="Contact Rapids White Water Rafting. Find our address, phone number, email, and reach out to us for general inquiries, reservation questions, or website suggestions.">
+  <meta name="author" content="Okorie Emmanuel">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Rapids Rafting Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="contact-info">
+      <h1>Contact Us</h1>
+      <p><strong>Address:</strong> 123 River Road, Adventure City, CO 80202</p>
+      <p><strong>Phone:</strong> (555) 123-4567</p>
+      <p><strong>Email:</strong> info@rapidsrafting.com</p>
+      
+      <!-- Embedded Google Map -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.749506692868!2d-105.00331008461746!3d39.75239997944747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78c3b7a544df%3A0xc54530fcb7396696!2sConfluence%20Park!5e0!3m2!1sen!2sus!4v1675276311651!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <section class="employees">
+      <h2>Our Expert Guides</h2>
+      <div class="employee-gallery">
+        <figure>
+          <img src="images/client.jpg" alt="Lead Guide Employee">
+          <figcaption>John Doe - Lead Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/adventure1.jpg" alt="Safety Instructor Employee">
+          <figcaption>Jane Smith - Safety Instructor</figcaption>
+        </figure>
+        <figure>
+          <img src="images/history.jpg" alt="Trip Coordinator Employee">
+          <figcaption>Mike Johnson - Trip Coordinator</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <fieldset>
+          <legend>Purpose of Message:</legend>
+          <div>
+            <input type="radio" id="general" name="purpose" value="General Inquiry" checked>
+            <label for="general">General Inquiry</label>
+          </div>
+          <div>
+            <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+            <label for="reservation">Reservation Question</label>
+          </div>
+          <div>
+            <input type="radio" id="website" name="purpose" value="Website Suggestion">
+            <label for="website">Website Suggestion</label>
+          </div>
+        </fieldset>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <div class="form-group checkbox-group">
+          <input type="checkbox" id="newsletter" name="newsletter">
+          <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+        </div>
+
+        <button type="submit">Send Your Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;2026 | Rapids! | Okorie Emmanuel</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com" target="_blank">
+        <img src="images/facebook.svg" alt="Facebook Icon">
+      </a>
+      <a href="https://x.com" target="_blank">
+        <img src="images/x.svg" alt="X/Twitter Icon">
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="images/instagram.svg" alt="Instagram Icon">
+      </a>
+    </nav>
+  </footer>
+</body>
+
+</html>
